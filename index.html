@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>test demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo image" width="200" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="news.html">News/Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="join.html">Career</a>
+          </li>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Contact</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">contact us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>info@cztus.com</p>
+          <br>
+          <p>P:phone</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- splash with text -->
+  <div id="splash-container">
+    <div class="ratio ratio-16x9">
+      <video width="320" height="240" autoplay muted loop>
+        <source src="images/media/demo.MP4" type="video/mp4">
+      </video>
+      <div id="splash-text-container" class="center">
+        <div id="splash-text" class="row text-center d-flex align-items-center center">
+          <h1>NEXTRISE</h1>
+          <h3>Rising Above the Rest with Nextrise Manufacturing</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- splash with text -->
+
+  <!-- 3 tenant icon -->
+
+  <div class="card-deck mb-3 text-center container">
+    <div class="row">
+      <div class="card main-card col-sm">
+        <div class="card-header main-card-header">
+          <img id="icon-picture" src="images/icon1v2.png" alt="icon1">
+        </div>
+        <div class="card-body d-flex flex-column center">
+          <h3>Research, innovative product development</h3>
+          <a href="about.html#r-d" class="btn btn-primary mt-auto cards-button" role="button">Learn More</a>
+        </div>
+      </div>
+      <div class="card main-card col-sm ">
+        <div class="card-header main-card-header">
+          <img id="icon-picture" src="images/icon2.png" alt="icon2">
+        </div>
+        <div class="card-body d-flex flex-column center">
+          <h3>Utilizing cutting-edge automated production lines.</h3>
+          <a href="about.html#robot-arm" class="btn btn-primary mt-auto cards-button" role="button">Learn More</a>
+        </div>
+      </div>
+      <div class="card main-card col-sm">
+        <div class="card-header main-card-header">
+          <img id="icon-picture" src="images/icon3V2.png" alt="icon3">
+        </div>
+        <div class="card-body d-flex flex-column center">
+          <h3>where your success fuels ours</h3>
+          <a href="about.html#specialist" class="btn btn-primary mt-auto cards-button" role="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3 tenant icon -->
+
+  <!-- pitch explanation section -->
+  <div id="pitch-container-parent">
+    <div class="container" id="pitch-container">
+      <div class="row align-items-center ">
+        <div class="col">
+          <img class="img-fluid w-100 img-thumbnail" src="images/machines.png" alt="default">
+        </div>
+        <div class="col text-center">
+          <h2 class="pitch-text">Our team with extensive expertise and diverse industry experience</h2>
+          <p class="pitch-text">Our team of engineers boasts a wealth of experience in the field of manufacturing and
+            quality assessment, gained from working with esteemed companies. Furthermore, our team members come from
+            diverse backgrounds, thereby bringing to the table a range of perspectives and skills that enable us to
+            tackle challenges holistically.</p>
+        </div>
+      </div>
+      <div class="row align-items-center ">
+        <div class="col text-center">
+          <h2 class="pitch-text">Flexible and adaptive solutions</h2>
+          <p class="pitch-text">Our organization leverages a unique skillset to provide affordable and unique solutions
+            that enable clients to achieve their strategic objectives.</p>
+        </div>
+        <div class="col">
+          <img class="img-fluid w-100 img-thumbnail float-end" src="images/smart.jpeg" alt="default">
+        </div>
+      </div>
+      <div class="row align-items-center ">
+        <div class="col">
+          <img class="img-fluid w-100 img-thumbnail" src="images/ff1.jpeg" alt="default">
+        </div>
+        <div class="col text-center">
+          <h2 class="pitch-text">Optimize Manufacturing</h2>
+          <p class="pitch-text">Based on our extensive experience, we have ascertained that the key to unlocking
+            operational efficiency lies in adopting a bottom-up approach. This involves cultivating strong relationships
+            with local producers, engaging local workers, and supporting the local infrastructure. By doing so, we are
+            able to optimize our manufacturing processes and streamline our delivery mechanisms.</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col text-center">
+          <h2 class="pitch-text">Continuous service</h2>
+          <p class="pitch-text">Our commitment to meeting your needs is unwavering, which is why our team of
+            consultants is dedicated to providing continuous support through every stage of your project, from its
+            inception to its successful completion and beyond."</p>
+        </div>
+        <div class="col">
+          <img class="img-fluid w-100 img-thumbnail float-end" src="images/index-cs.png" alt="default">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- pitch explanation section -->
+  <div>
+    <img src="images/index_splash2.png" alt="broken splash sadge" class="img-fluid" id="index_splash2">
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" id="socials-bar">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Connect with us</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <img class="img-icon" src="images/indeed-white.svg" alt="indeed icon"></img>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>NextRise USA
+            </h6>
+            <p>
+              Enhancing our world with innovative technological solutions for a sustainable future.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Solar tracking accessories</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Solar modification kits</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> 5000 I-10 Frontage Rd, Warehouse #6, Sealy, Texas 77474 </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              sales@cztus.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>(979)-398-1722</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
